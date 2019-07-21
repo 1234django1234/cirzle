@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def games(req):
+    return render(req, 'game/games.html')
